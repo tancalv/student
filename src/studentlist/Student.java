@@ -11,8 +11,23 @@ package studentlist;
  */
 public class Student
 {
+
+    /**
+     * @return the parttimesid
+     */
+    public int getParttimesid() {
+        return parttimesid;
+    }
+
+    /**
+     * @param parttimesid the parttimesid to set
+     */
+    public void setParttimesid(int parttimesid) {
+        this.parttimesid = parttimesid;
+    }
     private String name;
     private int age;
+    private int parttimesid;
 
     /**
      * @return the name
